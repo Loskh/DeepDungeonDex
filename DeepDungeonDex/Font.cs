@@ -39,6 +39,7 @@ namespace DeepDungeonDex
 
         public unsafe Font(StorageHandler handler)
         {
+            return;
             _handler = handler;
             SetUpRanges();
             SetUpFonts();
